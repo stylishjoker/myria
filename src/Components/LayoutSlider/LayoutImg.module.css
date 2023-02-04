@@ -1,0 +1,7 @@
+.wrapper {
+	min-height: calc(100vw / 2.38);
+	width: calc(100vw - var(--scrollbar-size));
+	background-position: 50%;
+	background-size: cover;
+	z-index: -1;
+}
