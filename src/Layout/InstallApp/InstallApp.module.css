@@ -5,13 +5,12 @@
 	width: 194px;
 	height: 40px;
 	border: 1px solid;
-	/* border-color: var(--color-main); */
 	border-radius: 8px;
 	font-weight: 700;
+	margin-right: 54px;
 }
 :hover > .wrapper {
 	color: var(--color-clone);
-	/* border-color: var(--color-clone); */
 }
 .wrapper span {
 	margin-left: 0.5rem;

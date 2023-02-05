@@ -1,0 +1,24 @@
+.wrapper {
+	display: grid;
+}
+
+.link {
+	padding: 7px 24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/* padding: 7px 24px; */
+	font-size: 1rem;
+	line-height: 1.5rem;
+	margin-top: 1.5rem;
+	cursor: pointer;
+	background-color: #f5b941;
+	border-color: #000;
+	color: #000;
+	border-radius: 8px;
+	transition: 0.3s;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.wrapper :hover {
+	background-color: #ed8a33;
+}

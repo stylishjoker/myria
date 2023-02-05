@@ -2,7 +2,7 @@
 	width: calc(100vw - var(--scrollbar-size));
 	min-width: 1280px;
 	background-color: rgb(8 24 36 / var(--tw-bg-opacity));
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .wrapper nav {
 	height: 93px;

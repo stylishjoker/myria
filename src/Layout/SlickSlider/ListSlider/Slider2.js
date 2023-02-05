@@ -1,8 +1,10 @@
+import LayoutVid from '@/Components/LayoutSlider/LayoutVid';
+
 const Slider_2 = () => {
 	return (
-		<div>
-			<h2>Slider_2</h2>
-		</div>
+		<LayoutVid>
+			<h2>sliders</h2>
+		</LayoutVid>
 	);
 };
 export default Slider_2;

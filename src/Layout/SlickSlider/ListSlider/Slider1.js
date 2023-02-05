@@ -1,13 +1,22 @@
 import ListBanner from '@/Assets/sliders';
 import LayoutImg from '@/Components/LayoutSlider/LayoutImg';
+import ButtonLink from '@/Components/ButtonLink';
 
 const Slider_1 = () => {
+	const props = {
+		link: '/MarketPlace',
+		name: 'EXPLORE MARKETPLACE',
+	};
 	return (
-		<div>
+		<>
 			<LayoutImg path={ListBanner.banner1}>
-				<h2>Slider_1</h2>
+				<div className={'center_col'}>
+					<span>MYRIA L2 IS LIVE!</span>
+					<span>Trade and collect NFTs with 0 fees</span>
+					<ButtonLink {...props} />
+				</div>
 			</LayoutImg>
-		</div>
+		</>
 	);
 };
 export default Slider_1;

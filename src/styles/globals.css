@@ -125,3 +125,7 @@ a {
 ul {
 	list-style: none;
 }
+.width_screen {
+	max-width: 1360px;
+	min-width: 1280px;
+}

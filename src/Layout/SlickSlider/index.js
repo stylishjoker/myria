@@ -9,11 +9,7 @@ const SlickSlider = () => {
 			<Slider>
 				{ListSlider.map((item) => {
 					const Slide = item.component;
-					return (
-						<>
-							<Slide key={item.id} />
-						</>
-					);
+					return <Slide key={item.id} />;
 				})}
 			</Slider>
 		</div>

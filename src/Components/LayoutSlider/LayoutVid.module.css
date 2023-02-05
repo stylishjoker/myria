@@ -1,0 +1,16 @@
+.wrapper {
+	position: relative;
+	min-height: calc(100vw / 2.38);
+	background-position: 50%;
+	isolation: isolate;
+	width: calc(100vw - var(--scrollbar-size));
+	z-index: -10;
+}
+.video {
+	position: absolute;
+	display: block;
+	width: 100%;
+}
+.content {
+	position: absolute;
+}
